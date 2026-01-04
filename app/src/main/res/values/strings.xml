@@ -30,7 +30,7 @@
     <string name="void_item">Void Selected Item</string>
 
     <string name="subtotal_with_colon">Subtotal:</string>
-    <string name="type">Type:</string>
+    <string name="location">Location:</string>
     <string name="date_time">Date-Time:</string>
     <string name="item_name">Item Name</string>
     <string name="quantity">Quantity</string>
