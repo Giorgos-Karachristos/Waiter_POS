@@ -97,6 +97,8 @@ public class OrdersFragment extends Fragment {
                 return;
             }
 
+            ordersList.removeIf(order -> "Takeaway".equals(order.getType()));
+
             List<String> orderNames = new ArrayList<>();
             for (Orders order : ordersList) {
                 orderNames.add("Order " + order.getOrderID() + " " + order.getStatus());
